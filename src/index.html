@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Notifications page</title>
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="m-0 p-0">
+  <div id="container" class="bg-lightblue flex items-center justify-center lg:h-screen sm:h-auto sm:flex-none">
+    <div class="bg-white rounded p-6 lg:w-2/5 lg:h-auto sm:w-full sm:h-screen">
+      <header class="flex flex-row justify-between items-center my-4">
+        <div class="flex flex-row items-center gap-5">
+          <h1 class="text-2xl font-bold">Notifications</h1>
+          <span class="bg-darkblue text-white font-bold px-3 align-middle rounded flex justify-center align-center">3</span>
+        </div> 
+        <span class="text-sm hover:text-darkblue cursor-pointer">Mark all as read</span>
+      </header>
+      <section class="bg-lightblue w-full h-auto rounded flex flex-row items-start p-4 gap-5 my-1 text-sm lg:text-base">
+        <img class="w-10 h-auto"  src="./images/avatar-mark-webber.webp" alt="#">
+        <div>
+          <h3 class="text-darkgrey"><strong class="text-charcoal hover:text-darkblue cursor-pointer">Mark Webber</strong> reacted to your recent post 
+          <a class="text-charcoal font-bold hover:text-darkblue" href="#">My first tournament today!</a>
+          <div class="bg-lightred w-2 h-2 rounded-full inline-block mx-1"></div>
+          </h3>
+          <span class="text-grey">1m ago</span>
+        </div>
+      </section>
+      <section class="bg-lightblue w-full h-auto rounded flex flex-row items-center p-4 gap-5 my-1 text-sm lg:text-base">
+        <img class="w-10 h-auto" src="./images/avatar-angela-gray.webp" alt="#">
+        <div>
+          <h3 class="text-darkgrey"><strong class="text-charcoal hover:text-darkblue cursor-pointer">Angela Gray</strong> followed you 
+            <div class="bg-lightred w-2 h-2 rounded-full inline-block mx-1"></div>
+          </h3>
+          <span class="text-grey">5m ago</span>
+        </div>
+      </section>
+      <section class="bg-lightblue w-full h-auto rounded flex flex-row items-start p-4 gap-5 my-1 text-sm lg:text-base">
+        <img class="w-10 h-auto" src="./images/avatar-jacob-thompson.webp" alt="#">
+        <div>
+          <h3 class="text-darkgrey"><strong class="text-charcoal hover:text-darkblue cursor-pointer">Jacob Thompson</strong> 
+          has joined your group <strong class="text-darkblue hover: cursor-pointer">Chess Club</strong><div class="bg-lightred w-2 h-2 rounded-full inline-block mx-1"></div></h3>
+          <span class="text-grey">1d ago</span>
+        </div>
+      </section>
+      <section class="bg-white w-full h-auto rounded flex flex-row items-start p-4 gap-5 my-1 text-sm lg:text-base">
+        <img class="w-10 h-auto" src="./images/avatar-rizky-hasanuddin.webp" alt="#">
+        <div>
+          <h3 class="text-darkgrey"><strong class="text-charcoal hover:text-darkblue cursor-pointer">Rizky Hasanuddin</strong> sent you a private message</h3>
+          <span class="text-grey">5d ago</span>
+          <aside class="w-5/5 text-darkgrey border-2 border-lightblue p-4 rounded my-2 hover:bg-lightblue cursor-pointer">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+            I'm already having lots of fun and improving my game.
+          </aside>
+        </div>
+      </section>
+      <section class="bg-white w-full h-auto rounded flex flex-row items-start p-4 gap-5 my-1 text-sm lg:text-base">
+        <img class="w-10 h-auto" src="./images/avatar-kimberly-smith.webp" alt="#">
+        <div class="flex flex-row justify-between w-full">
+          <div>
+            <h3 class="text-darkgrey"><strong class="text-charcoal hover:text-darkblue cursor-pointer">Kimberly Smith</strong> commented on your picture</h3>
+            <span class="text-grey">1w ago</span>
+          </div>
+          <img class="w-[36px] h-[36px] lg:w-14 lg:h-auto lg:p-1 hover:bg-lightblue border-lightblue rounded cursor-pointer " src="./images/image-chess.webp" alt="Girl playing chess">
+        </div>
+      </section>
+      <section class="bg-white w-full h-auto rounded flex flex-row items-start p-4 gap-5 my-1 text-sm lg:text-base">
+        <img class="w-10 h-auto" src="./images/avatar-nathan-peterson.webp" alt="#">
+        <div>
+          <h3 class="text-darkgrey"><strong class="text-charcoal hover:text-darkblue cursor-pointer">Nathan Peterson</strong> reacted to your recent post 5 end-game strategies to increase your win rate</h3>
+          <span class="text-grey">2w ago</span>
+        </div>
+      </section>
+      <section class="bg-white w-full h-auto rounded flex flex-row items-start p-4 gap-5 my-1 text-sm lg:text-base">
+        <img class="w-10 h-auto" src="./images/avatar-anna-kim.webp" alt="#">
+        <div>
+          <h3 class="text-darkgrey"><strong class="text-charcoal hover:text-darkblue cursor-pointer">Anna Kim</strong> left the group
+            <strong class="text-darkblue hover: cursor-pointer">Chess Club</strong></h3>
+          <span class="text-grey">2w ago</span>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="hidden">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
